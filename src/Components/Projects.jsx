@@ -1,7 +1,7 @@
 import React from 'react';
-import Img1 from '../assets/Image.png'; // Replace with your image paths
-import Img2 from '../assets/image2.png';
-import Img3 from '../assets/Image3.png';
+import Img1 from '../assets/Image.png'; // Ensure this matches the actual file name
+import Img2 from '../assets/image2.png'; // Ensure this matches the actual file name
+import Img3 from '../assets/Image3.png'; // Ensure this matches the actual file name
 import { FaArrowRight } from 'react-icons/fa'; // Import arrow icon from React Icons
 
 const projects = [
