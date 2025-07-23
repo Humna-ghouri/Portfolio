@@ -1,4 +1,6 @@
 import React from "react";
+import logo from '../assets/Logo.png'; 
+import homeimg from '../assets/homeimg.png'
 
 const HomePage = () => {
   return (
@@ -18,13 +20,14 @@ const HomePage = () => {
 
       {/* Logo Section */}
       <div className="flex justify-center w-full lg:w-[130px] mt-9 lg:mt-0">
-        <img src="./src/assets/Logo.png" alt="Logo" className="w-[120px] h-[30px]" />
+        {/* <img src="./src/assets/Logo.png" alt="Logo" className="w-[120px] h-[30px]" /> */}
+        <img src={logo} alt="Logo" className="w-[120px] h-[30]"/>
       </div>
 
       {/* Image Section */}
       <div className="flex justify-center items-center h-auto">
         <img
-          src="./src/assets/Group 11 1.png"
+          src={homeimg}
           alt="Centered Image"
           className="w-full h-auto object-contain rounded-[40px] md:max-w-[400px] lg:max-w-[600px] ml-4"
         />

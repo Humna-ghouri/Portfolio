@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa"; // Importing social media icons
+import logo from '../assets/Logo.png'; 
 
 const Footer = () => {
   return (
@@ -8,7 +9,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-6 ">
           {/* Logo */}
           <div className="flex items-center mb-4 md:mb-0">
-            <img src="./src/assets/Logo.png" alt="Logo" className="mr-4 h-12 w-auto" /> {/* Adjusted height */}
+            <img
+             src={logo}
+             alt="Logo" className="mr-4 h-12 w-auto" /> {/* Adjusted height */}
           </div>
 
           {/* Navigation Links */}
